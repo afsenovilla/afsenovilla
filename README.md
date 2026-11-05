@@ -8,6 +8,10 @@ Developer and **Salesforce Marketing Cloud** specialist based in Madrid. I like 
 
 ## 🛠️ Projects
 
+### Apps
+
+- [**GlucoLand**](https://glucoland.app) — iPhone app that shows your Dexcom glucose live on the Dynamic Island, Lock Screen, widgets, Apple Watch and CarPlay, with a pixel trail of recent readings, alerts you set up yourself and share links for family. In public beta on TestFlight, with the App Store release coming soon. Closed source. A secondary display that doesn't replace the Dexcom app's alerts.
+
 ### Retro games and handhelds
 
 - [**Tombi-Decomp**](https://github.com/afsenovilla/Tombi-Decomp) — Matching decompilation of *Tombi!* (*Tomba!*) for the original PlayStation, with over 99% of the game's code matching byte for byte, plus a playable native port for Windows and Linux with nine languages and mods. You supply your own disc image.
