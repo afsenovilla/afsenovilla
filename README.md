@@ -1,42 +1,50 @@
-# Hola, soy Alberto Fernández 👋
+# Hi, I'm Alberto Fernández 👋
 
-Desarrollador y especialista en **Salesforce Marketing Cloud**, en Madrid. Me gusta construir herramientas pequeñas y útiles: bots, webs estáticas y módulos que resuelven un problema concreto, casi siempre sin backend y desplegados en GitHub Pages o Cloudflare Workers.
+Developer and **Salesforce Marketing Cloud** specialist based in Madrid. I like building small, useful tools (bots, static sites, modules that solve one specific problem), usually with no backend and deployed on GitHub Pages or Cloudflare Workers. Lately I've also been digging into retro games and handhelds: decompilation, ports and firmware.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-afsenovilla-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afsenovilla/)
 
 ---
 
-## 🛠️ Proyectos
+## 🛠️ Projects
 
-### Herramientas para Yoto
+### Retro games and handhelds
 
-| Proyecto | Qué hace | |
-|---|---|---|
-| [**YOTO JSON Extractor**](https://github.com/afsenovilla/YOTO-json-extractor) | App en Python que extrae las pistas de audio y sus metadatos a partir de una URL de Yoto. | ![Stars](https://img.shields.io/github/stars/afsenovilla/YOTO-json-extractor?style=flat) |
-| [**Yoto Audio Player Browser Extension**](https://github.com/afsenovilla/Yoto-Audio-Player-Browser-Extension) | Extensión de navegador para reproducir y descargar las pistas de tus tarjetas Yoto sin salir del navegador. | ![Stars](https://img.shields.io/github/stars/afsenovilla/Yoto-Audio-Player-Browser-Extension?style=flat) |
+- [**Tombi-Decomp**](https://github.com/afsenovilla/Tombi-Decomp) — Matching decompilation of *Tombi!* (*Tomba!*) for the original PlayStation, with over 99% of the game's code matching byte for byte, plus a playable native port for Windows and Linux with nine languages and mods. You supply your own disc image.
+- [**Ash Droid Launcher**](https://github.com/afsenovilla/ash-droid-launcher) — Android launcher for Pokémon Fire Ash and other Pokémon Essentials fangames running on mkxp-z, aimed at handhelds with physical controls: it detects the screen and controller, walks you through button mapping and writes a config tuned to the device. Based on mkxp-z-android.
+- [**XX-CFW**](https://github.com/afsenovilla/XX-CFW) *(experimental)* — A layer on top of ROCKNIX that aims to make closing the lid on Anbernic H700 clamshells such as the RG34XXSP work like a GBA SP: instant sleep, minimal battery drain and back to your game on opening. Not yet tested on the console.
 
 ### Pokémon
 
-- [**Poketracker**](https://github.com/afsenovilla/poketracker) · [pokedex.asuntosimportant.es](https://pokedex.asuntosimportant.es) — Seguimiento de tu Living Dex y Shiny Living Dex de Pokémon HOME, en español. React + Vite + TypeScript; el progreso se guarda como un JSON en tu propio repositorio de GitHub, sin servidor. Incluye dónde capturar cada Pokémon, modo noche y copia de seguridad.
-- [**Pokémon Distribuciones Bot**](https://github.com/afsenovilla/pokemon-distro-bot) — Bot de Telegram (Cloudflare Workers + KV) que responde en qué juegos se distribuyó un Pokémon, si era shiny (leyendo la wondercard real) y qué distribuciones hay activas. Se cruza con Poketracker para decirte qué te falta.
+- [**Poketracker**](https://github.com/afsenovilla/poketracker) · [pokedex.asuntosimportant.es](https://pokedex.asuntosimportant.es) — Living Dex and Shiny Living Dex tracker for Pokémon HOME, in Spanish, built on the PokédexTracker frontend. React + Vite + TypeScript; your progress is saved as a JSON file in your own GitHub repository, with no server. Includes where to catch each Pokémon, origin marks and night mode.
+- [**Pokémon Distribuciones Bot**](https://github.com/afsenovilla/pokemon-distro-bot) — Telegram bot (Cloudflare Workers + KV) covering Mystery Gift distributions and in-game events across the main series: what's active now, the full history by console, whether each one was shiny (read from the actual wondercard), and wondercard downloads. It messages you when something new appears and checks against Poketracker to tell you what you're missing.
+- [**PokeDump**](https://github.com/afsenovilla/PokeDump) *(experimental)* — Read-only save dumper for Pokémon FireRed / LeafGreen on Nintendo Switch, using an ESP32-S3 and a web page. It produces a `.sav` for PKHeX and a JSON file you can import into Poketracker. Tested in an emulator and against a simulated console, with the first test on real hardware still to come.
 
-### Bots y módulos
+### Yoto tools
 
-- [**MMM-DexcomOne**](https://github.com/afsenovilla/MMM-DexcomOne) — Módulo de MagicMirror² que muestra la glucosa de Dexcom en directo, con flecha de tendencia y gráfica de 3 horas, sin Nightscout ni cuenta de desarrollador.
-- [**MMM-ComedorBuero**](https://github.com/afsenovilla/MMM-ComedorBuero) — Módulo de MagicMirror² que muestra el menú del comedor escolar (hoy, varios días o la semana), leyendo el JSON de [ComedorBueroVallejo](https://github.com/afsenovilla/ComedorBueroVallejo). Sin dependencias.
-- [**RajoySlackBot**](https://github.com/afsenovilla/RajoySlackBot) — Bot de Slack con el comando `/rajoy` para enviar audios a un canal. Python + Flask + ffmpeg, en Docker sobre Render.
+| Project | What it does | |
+|---|---|---|
+| [**YOTO JSON Extractor**](https://github.com/afsenovilla/YOTO-json-extractor) | Python app (also available as an `.exe`) that downloads the audio tracks and images from Yoto URLs and embeds their metadata. | ![Stars](https://img.shields.io/github/stars/afsenovilla/YOTO-json-extractor?style=flat) |
+| [**Yoto Audio Player Browser Extension**](https://github.com/afsenovilla/Yoto-Audio-Player-Browser-Extension) | Extension for [Chrome](https://chromewebstore.google.com/detail/yoto-audio-player/ndmodaehbkhkcmpmplnlijknkcppllfn), [Edge](https://microsoftedge.microsoft.com/addons/detail/jnpkhcjceoolcliepogelalaccmohjhl) and [Firefox](https://addons.mozilla.org/addon/yoto-audio-player/) to play and download the tracks on your Yoto cards right in the browser. | ![Stars](https://img.shields.io/github/stars/afsenovilla/Yoto-Audio-Player-Browser-Extension?style=flat) |
 
-### Webs
+### Bots and modules
 
-- [**Sala de examen**](https://github.com/afsenovilla/sala-examen) · [sfmc.asuntosimportant.es](https://sfmc.asuntosimportant.es) — Web estática (PWA, funciona offline) para practicar exámenes de certificación: modo práctica, simulacro con pesos por sección y desglose por tema. JavaScript puro, sin build.
-- [**Recetas**](https://github.com/afsenovilla/Recetas) · [Ver la web](https://afsenovilla.github.io/Recetas/) — Recetario personal para usar desde el móvil mientras cocinas: buscador por ingredientes, filtros de dieta y alérgenos, modo cocina paso a paso e importación desde un enlace. HTML, CSS y JS puros.
-- [**ComedorBueroVallejo**](https://github.com/afsenovilla/ComedorBueroVallejo) — Menú mensual del comedor escolar publicado como JSON en GitHub Pages.
-- [**Proyecto final Angular**](https://github.com/afsenovilla/Proyecto-final-Angular) — Proyecto final del bootcamp full-stack ([demo](https://proyecto-final-angular-sandy.vercel.app)).
+- [**MMM-DexcomOne**](https://github.com/afsenovilla/MMM-DexcomOne) — MagicMirror² module showing live Dexcom glucose with a trend arrow and a 3-hour chart, with no Nightscout or developer account needed.
+- [**MMM-ComedorBuero**](https://github.com/afsenovilla/MMM-ComedorBuero) — Dependency-free MagicMirror² module showing the school lunch menu (today, several days or the whole week), read from the [ComedorBueroVallejo](https://github.com/afsenovilla/ComedorBueroVallejo) JSON.
+- [**RajoySlackBot**](https://github.com/afsenovilla/RajoySlackBot) — Slack bot with a `/rajoy` command that sends audio clips to a channel. Python + Flask + ffmpeg, in Docker on Render.
+
+### Websites
+
+- [**Sala de examen**](https://github.com/afsenovilla/sala-examen) · [sfmc.asuntosimportant.es](https://sfmc.asuntosimportant.es) — Static site (a PWA that works offline) for practising certification exams: practice mode, mock exams weighted by section, and a breakdown by topic. Vanilla JavaScript, no build step.
+- [**Recetas**](https://github.com/afsenovilla/Recetas) · [View site](https://afsenovilla.github.io/Recetas/) — Personal recipe book to use on your phone while cooking: search by ingredient, diet and allergen filters, step-by-step cooking mode, and import from a link. Plain HTML, CSS and JS.
+- [**ComedorBueroVallejo**](https://github.com/afsenovilla/ComedorBueroVallejo) — Monthly school lunch menu published as JSON on GitHub Pages.
+- [**Angular final project**](https://github.com/afsenovilla/Proyecto-final-Angular) — Final project from my full-stack bootcamp ([demo](https://proyecto-final-angular-sandy.vercel.app)).
 
 ---
 
 ## 🧰 Stack
 
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -47,17 +55,18 @@ Desarrollador y especialista en **Salesforce Marketing Cloud**, en Madrid. Me gu
 ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=microsoftsqlserver&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)
+![Android](https://img.shields.io/badge/Android-34A853?logo=android&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?logo=cloudflare&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
-**Marketing:** Salesforce Marketing Cloud (email en HTML, consultas SQL, journeys y arquitectura de datos) y Braze.
+**Marketing:** Salesforce Marketing Cloud (HTML email, SQL queries, journeys and data architecture) and Braze.
 
 ---
 
-## 🎓 Certificaciones
+## 🎓 Certifications
 
-- Salesforce Certified Marketing Cloud Engagement Specialist (2024, antes "Marketing Cloud Email Specialist")
+- Salesforce Certified Marketing Cloud Engagement Specialist (2024, formerly "Marketing Cloud Email Specialist")
 - Salesforce Certified AI Associate (2024)
 - Braze Certified Marketer (2025)
 - Querying Microsoft SQL Server (70-461)
@@ -65,6 +74,6 @@ Desarrollador y especialista en **Salesforce Marketing Cloud**, en Madrid. Me gu
 
 ---
 
-## 📫 Contacto
+## 📫 Contact
 
-Si algo de lo que ves te resulta útil o quieres proponerme una colaboración, escríbeme por [LinkedIn](https://www.linkedin.com/in/afsenovilla/).
+If something here is useful to you or you'd like to work together, reach out on [LinkedIn](https://www.linkedin.com/in/afsenovilla/).
