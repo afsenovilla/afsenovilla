@@ -8,6 +8,10 @@ Developer and **Salesforce Marketing Cloud** specialist based in Madrid. I like 
 
 ## 🛠️ Projects
 
+### Apps
+
+- [**GlucoLand**](https://glucoland.app) — iPhone app that shows your Dexcom glucose live on the Dynamic Island, Lock Screen, widgets, Apple Watch and CarPlay, with a pixel trail of recent readings, alerts you set up yourself and share links for family. In public beta on TestFlight, with the App Store release coming soon. Closed source. A secondary display that doesn't replace the Dexcom app's alerts.
+
 ### Retro games and handhelds
 
 - [**Tombi-Decomp**](https://github.com/afsenovilla/Tombi-Decomp) — Matching decompilation of *Tombi!* (*Tomba!*) for the original PlayStation, with over 99% of the game's code matching byte for byte, plus a playable native port for Windows and Linux with nine languages and mods. You supply your own disc image.
@@ -32,13 +36,6 @@ Developer and **Salesforce Marketing Cloud** specialist based in Madrid. I like 
 - [**MMM-DexcomOne**](https://github.com/afsenovilla/MMM-DexcomOne) — MagicMirror² module showing live Dexcom glucose with a trend arrow and a 3-hour chart, with no Nightscout or developer account needed.
 - [**MMM-ComedorBuero**](https://github.com/afsenovilla/MMM-ComedorBuero) — Dependency-free MagicMirror² module showing the school lunch menu (today, several days or the whole week), read from the [ComedorBueroVallejo](https://github.com/afsenovilla/ComedorBueroVallejo) JSON.
 - [**RajoySlackBot**](https://github.com/afsenovilla/RajoySlackBot) — Slack bot with a `/rajoy` command that sends audio clips to a channel. Python + Flask + ffmpeg, in Docker on Render.
-
-### Websites
-
-- [**Sala de examen**](https://github.com/afsenovilla/sala-examen) · [sfmc.asuntosimportant.es](https://sfmc.asuntosimportant.es) — Static site (a PWA that works offline) for practising certification exams: practice mode, mock exams weighted by section, and a breakdown by topic. Vanilla JavaScript, no build step.
-- [**Recetas**](https://github.com/afsenovilla/Recetas) · [View site](https://afsenovilla.github.io/Recetas/) — Personal recipe book to use on your phone while cooking: search by ingredient, diet and allergen filters, step-by-step cooking mode, and import from a link. Plain HTML, CSS and JS.
-- [**ComedorBueroVallejo**](https://github.com/afsenovilla/ComedorBueroVallejo) — Monthly school lunch menu published as JSON on GitHub Pages.
-- [**Angular final project**](https://github.com/afsenovilla/Proyecto-final-Angular) — Final project from my full-stack bootcamp ([demo](https://proyecto-final-angular-sandy.vercel.app)).
 
 ---
 
